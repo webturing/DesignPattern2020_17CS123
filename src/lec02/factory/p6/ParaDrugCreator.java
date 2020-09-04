@@ -1,4 +1,4 @@
-﻿package lec02.factory.p6;
+package lec02.factory.p6;
 
 public class ParaDrugCreator implements DrugCreator {
     public Drug getDrug() {

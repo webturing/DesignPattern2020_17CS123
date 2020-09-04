@@ -1,4 +1,4 @@
-﻿package lec02.factory.p3;
+package lec02.factory.p3;
 
 import java.util.Collection;
 import java.util.Iterator;

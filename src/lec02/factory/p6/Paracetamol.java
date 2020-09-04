@@ -1,4 +1,4 @@
-﻿package lec02.factory.p6;
+package lec02.factory.p6;
 
 public class Paracetamol extends Drug {
     String part1 = "每粒含乙酰氨基酚";

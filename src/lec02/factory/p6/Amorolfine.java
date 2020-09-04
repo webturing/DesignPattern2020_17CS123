@@ -1,4 +1,4 @@
-﻿package lec02.factory.p6;
+package lec02.factory.p6;
 
 public class Amorolfine extends Drug {
     String part1 = "每粒含甲硝唑";

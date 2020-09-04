@@ -1,4 +1,4 @@
-﻿package lec02.factory.p6;
+package lec02.factory.p6;
 
 public abstract class Drug {
     String constitute;
