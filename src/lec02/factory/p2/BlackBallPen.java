@@ -1,4 +1,4 @@
-﻿package lec02.factory.p2;
+package lec02.factory.p2;
 
 public class BlackBallPen extends BallPen {
     public PenCore getPenCore() {
