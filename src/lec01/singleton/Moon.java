@@ -1,17 +1,23 @@
 package lec01.singleton;
 
-public class Moon {
+public class Moon implements Comparable<Moon> {
     private Moon() {
-        //初始化
+        // this.setWeight(99999);
+        System.out.println("AAAAAAAAAAAAAAA");
     }
 
     private static Moon instance = new Moon();
 
     static {
-        //初始化2
+        System.out.println("BBBBBBBBBBBBBBBBBB");
     }
 
-    public static Moon getInstance() {
+    static Moon getInstance() {
         return instance;
+    }
+
+    @Override
+    public int compareTo(Moon o) {
+        return 0;
     }
 }
