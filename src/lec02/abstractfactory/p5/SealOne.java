@@ -1,4 +1,4 @@
-锘縫ackage lec02.abstractfactory.p5;
+package lec02.abstractfactory.p5;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -24,8 +24,8 @@ public class SealOne implements Seal {
         Ellipse2D ellipse = new Ellipse2D.Double(5, 6, 80, 80);
         g.setStroke(bs);
         g.draw(ellipse);
-        g.setFont(new Font("瀹嬩綋", Font.BOLD, 14));
-        g.drawString("涓浗閾惰", 16, 50);
+        g.setFont(new Font("宋体", Font.BOLD, 14));
+        g.drawString("中国银行", 16, 50);
     }
 
     public Image getImage() {

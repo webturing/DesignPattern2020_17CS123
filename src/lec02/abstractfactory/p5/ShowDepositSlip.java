@@ -1,4 +1,4 @@
-ï»¿package lec02.abstractfactory.p5;
+package lec02.abstractfactory.p5;
 
 import java.awt.Graphics;
 import java.awt.Image;
@@ -42,10 +42,10 @@ public class ShowDepositSlip extends JPanel {
 
     public void paintComponent(Graphics g) {
         if (boo) {
-            g.drawString(depositSlip.getBankName() + "å­˜æ¬¾å‡­è¯", 10, 20);
-            g.drawString("å¸å·:" + depositSlip.getClientNumber(), 20, 50);
-            g.drawString("å§“å:" + depositSlip.getClientName(), 20, 80);
-            g.drawString("é‡‘é¢:" + depositSlip.getAmountOfMoney(), 20, 110);
+            g.drawString(depositSlip.getBankName() + "´æ¿îÆ¾Ö¤", 10, 20);
+            g.drawString("ÕÊºÅ:" + depositSlip.getClientNumber(), 20, 50);
+            g.drawString("ĞÕÃû:" + depositSlip.getClientName(), 20, 80);
+            g.drawString("½ğ¶î:" + depositSlip.getAmountOfMoney(), 20, 110);
             label.setBounds(60, 110, image.getWidth(this), image.getHeight(this));
         }
     }

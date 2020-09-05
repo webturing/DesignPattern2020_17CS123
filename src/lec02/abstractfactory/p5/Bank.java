@@ -1,4 +1,4 @@
-﻿package lec02.abstractfactory.p5;
+package lec02.abstractfactory.p5;
 
 public abstract class Bank {
     public abstract DepositSlip createDepositSlip(String number, String name, int money);

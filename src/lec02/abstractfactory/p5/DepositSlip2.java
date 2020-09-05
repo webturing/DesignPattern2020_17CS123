@@ -1,4 +1,4 @@
-锘縫ackage lec02.abstractfactory.p5;
+package lec02.abstractfactory.p5;
 
 public class DepositSlip2 implements DepositSlip {
     String clientNumber;
@@ -12,7 +12,7 @@ public class DepositSlip2 implements DepositSlip {
     }
 
     public String getBankName() {
-        return "涓浗寤鸿閾惰";
+        return "中国建设银行";
     }
 
     public String getClientName() {

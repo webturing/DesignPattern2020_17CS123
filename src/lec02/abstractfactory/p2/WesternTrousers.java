@@ -1,4 +1,4 @@
-﻿package lec02.abstractfactory.p2;
+package lec02.abstractfactory.p2;
 
 public class WesternTrousers extends Trousers {
     private int waistSize;

@@ -1,13 +1,13 @@
 package lec02.factory.p6;
 
 public class Amorolfine extends Drug {
-    String part1 = "æ¯ç²’å«ç”²ç¡å”‘";
-    String part2 = "æ¯ç²’å«äººå·¥ç‰›é»„";
+    String part1 = "Ã¿Á£º¬¼×Ïõßò";
+    String part2 = "Ã¿Á£º¬ÈË¹¤Å£»Æ";
 
     public Amorolfine(String name, int[] a) {
         this.name = name;
-        part1 = part1 + ":" + a[0] + "æ¯«å…‹\n";
-        part2 = part2 + ":" + a[1] + "æ¯«å…‹\n";
+        part1 = part1 + ":" + a[0] + "ºÁ¿Ë\n";
+        part2 = part2 + ":" + a[1] + "ºÁ¿Ë\n";
         constitute = part1 + part2;
     }
 }

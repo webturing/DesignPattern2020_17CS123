@@ -1,4 +1,4 @@
-﻿package lec02.abstractfactory.p5;
+package lec02.abstractfactory.p5;
 
 public interface DepositSlip {
     public abstract String getBankName();

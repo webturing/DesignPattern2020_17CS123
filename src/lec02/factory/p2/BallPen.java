@@ -2,8 +2,8 @@ package lec02.factory.p2;
 
 public abstract class BallPen {
     BallPen() {
-        System.out.println("ç”Ÿäº§äº†ä¸€åªè£…æœ‰" + getPenCore().color + "ç¬”èŠ¯çš„åœ†ç ç¬”");
+        System.out.println("Éú²úÁËÒ»Ö»×°ÓĞ" + getPenCore().color + "±ÊĞ¾µÄÔ²Öé±Ê");
     }
 
-    public abstract PenCore getPenCore(); // å·¥å‚æ–¹æ³•
+    public abstract PenCore getPenCore(); // ¹¤³§·½·¨
 }

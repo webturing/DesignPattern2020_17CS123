@@ -1,4 +1,4 @@
-ï»¿package lec02.abstractfactory.p2;
+package lec02.abstractfactory.p2;
 
 public class Shop {
     UpperClothes cloth;
@@ -11,12 +11,12 @@ public class Shop {
     }
 
     private void showMess() {
-        System.out.println("<å¥—è£…ä¿¡æ¯>");
+        System.out.println("<Ì××°ÐÅÏ¢>");
         System.out.println(cloth.getName() + ":");
-        System.out.print("èƒ¸å›´:" + cloth.getChestSize());
-        System.out.println("èº«é«˜:" + cloth.getHeight());
+        System.out.print("ÐØÎ§:" + cloth.getChestSize());
+        System.out.println("Éí¸ß:" + cloth.getHeight());
         System.out.println(trouser.getName() + ":");
-        System.out.print("è…°å›´:" + trouser.getWaistSize());
-        System.out.println("èº«é«˜:" + trouser.getHeight());
+        System.out.print("ÑüÎ§:" + trouser.getWaistSize());
+        System.out.println("Éí¸ß:" + trouser.getHeight());
     }
 }

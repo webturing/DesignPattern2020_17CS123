@@ -1,11 +1,11 @@
-ï»¿package lec02.abstractfactory.p2;
+package lec02.abstractfactory.p2;
 
 public class BeijingClothesFactory extends ClothesFactory {
     public UpperClothes createUpperClothes(int chestSize, int height) {
-        return new WesternUpperClothes("åŒ—äº¬ç‰Œè¥¿æœä¸Šè¡£", chestSize, height);
+        return new WesternUpperClothes("±±¾©ÅÆÎ÷·şÉÏÒÂ", chestSize, height);
     }
 
     public Trousers createTrousers(int waistSize, int height) {
-        return new WesternTrousers("åŒ—äº¬ç‰Œè¥¿æœè£¤å­", waistSize, height);
+        return new WesternTrousers("±±¾©ÅÆÎ÷·ş¿ã×Ó", waistSize, height);
     }
 }

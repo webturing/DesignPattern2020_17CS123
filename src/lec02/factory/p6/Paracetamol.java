@@ -1,17 +1,17 @@
 package lec02.factory.p6;
 
 public class Paracetamol extends Drug {
-    String part1 = "æ¯ç²’å«ä¹™é…°æ°¨åŸºé…š";
-    String part2 = "æ¯ç²’å«å’–å•¡å› ";
-    String part3 = "æ¯ç²’å«äººå·¥ç‰›é»„";
-    String part4 = "æ¯ç²’å«é©¬æ¥é…¸æ°¯è‹¯";
+    String part1 = "Ã¿Á£º¬ÒÒõ£°±»ù·Ó";
+    String part2 = "Ã¿Á£º¬¿§·ÈÒò";
+    String part3 = "Ã¿Á£º¬ÈË¹¤Å£»Æ";
+    String part4 = "Ã¿Á£º¬ÂíÀ´ËáÂÈ±½";
 
     public Paracetamol(String name, int[] a) {
         this.name = name;
-        part1 = part1 + ":" + a[0] + "æ¯«å…‹\n";
-        part2 = part2 + ":" + a[1] + "æ¯«å…‹\n";
-        part3 = part3 + ":" + a[2] + "æ¯«å…‹\n";
-        part4 = part4 + ":" + a[3] + "æ¯«å…‹\n";
+        part1 = part1 + ":" + a[0] + "ºÁ¿Ë\n";
+        part2 = part2 + ":" + a[1] + "ºÁ¿Ë\n";
+        part3 = part3 + ":" + a[2] + "ºÁ¿Ë\n";
+        part4 = part4 + ":" + a[3] + "ºÁ¿Ë\n";
         constitute = part1 + part2 + part3 + part4;
     }
 }

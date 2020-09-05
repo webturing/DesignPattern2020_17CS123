@@ -1,4 +1,4 @@
-锘縫ackage lec02.abstractfactory.p5;
+package lec02.abstractfactory.p5;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -23,8 +23,8 @@ public class SealTwo implements Seal {
         rect = new Rectangle2D.Double(5, 6, 80, 80);
         g.setStroke(bs);
         g.draw(rect);
-        g.setFont(new Font("瀹嬩綋", Font.BOLD, 14));
-        g.drawString("寤鸿閾惰", 16, 50);
+        g.setFont(new Font("宋体", Font.BOLD, 14));
+        g.drawString("建设银行", 16, 50);
     }
 
     public Image getImage() {

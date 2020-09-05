@@ -12,7 +12,7 @@ public class DepositSlip3 implements DepositSlip {
     }
 
     public String getBankName() {
-        return "ä¸­å›½äº¤é€šé“¶è¡Œ";
+        return "ÖÐ¹ú½»Í¨ÒøÐÐ";
     }
 
     public String getClientName() {

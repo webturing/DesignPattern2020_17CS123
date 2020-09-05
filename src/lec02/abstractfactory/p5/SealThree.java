@@ -1,4 +1,4 @@
-ï»¿package lec02.abstractfactory.p5;
+package lec02.abstractfactory.p5;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -28,8 +28,8 @@ public class SealThree implements Seal {
         g.draw(line);
         line.setLine(105, 105, 5, 105);
         g.draw(line);
-        g.setFont(new Font("å®‹ä½“", Font.BOLD, 14));
-        g.drawString("äº¤é€šé“¶è¡Œ", 25, 78);
+        g.setFont(new Font("ËÎÌå", Font.BOLD, 14));
+        g.drawString("½»Í¨ÒøÐÐ", 25, 78);
     }
 
     public Image getImage() {

@@ -1,4 +1,4 @@
-﻿package lec02.abstractfactory.p2;
+package lec02.abstractfactory.p2;
 
 public abstract class ClothesFactory {
     public abstract UpperClothes createUpperClothes(int chestSize, int height);

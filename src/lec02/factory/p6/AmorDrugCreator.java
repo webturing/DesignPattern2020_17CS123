@@ -3,7 +3,7 @@ package lec02.factory.p6;
 public class AmorDrugCreator implements DrugCreator {
     public Drug getDrug() {
         int[] a = {200, 5};
-        Drug drug = new Amorolfine("ç”²ç¡å”‘èƒ¶å›Š", a);
+        Drug drug = new Amorolfine("¼×Ïõßò½ºÄÒ", a);
         return drug;
     }
 }
