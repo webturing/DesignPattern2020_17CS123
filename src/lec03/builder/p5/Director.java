@@ -21,8 +21,8 @@ public class Director {
             builder.buildDayOfMonth();
         }
         if (ok) {
-            CalendarProduct prodcut = builder.getCalendarProduct();
-            prodcut.showCalendarPad();
+            calendarProduct product = builder.getCalendarProduct();
+            product.showCalendarPad();
         }
     }
 }

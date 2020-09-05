@@ -3,10 +3,10 @@ package lec03.builder.p5;
 import java.util.Calendar;
 
 public class AmericanCalnederBuilder implements Builder {
-    private CalendarProduct product;
+    private calendarProduct product;
 
     AmericanCalnederBuilder() {
-        product = new CalendarProduct();
+        product = new calendarProduct();
     }
 
     public void buildTitle() {
@@ -70,7 +70,7 @@ public class AmericanCalnederBuilder implements Builder {
         product.dayOfMonth = a;
     }
 
-    public CalendarProduct getCalendarProduct() {
+    public calendarProduct getCalendarProduct() {
         return product;
     }
 }

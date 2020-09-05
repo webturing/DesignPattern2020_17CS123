@@ -3,7 +3,7 @@ package lec03.builder.p5;
 import javax.swing.*;
 import java.util.Calendar;
 
-public class CalendarProduct {
+public class calendarProduct {
     Calendar calendar;
     String title;              //日历牌的标题
     String[] weekTitle;       //日历牌的星期标题

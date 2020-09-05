@@ -9,5 +9,5 @@ public interface Builder {
 
     public abstract void buildDayOfMonth();
 
-    public abstract CalendarProduct getCalendarProduct();
+    public abstract calendarProduct getCalendarProduct();
 }
