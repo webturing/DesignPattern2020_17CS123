@@ -2,14 +2,14 @@ package lec01.demo;
 
 public class Application {
     public static void main(String[] args) {
-  
-        Girl ake = new Girl("°¢çæ", 19);
-        Girl shuanger = new Girl("Ë«¶ù", 20);
-        Girl jianling = new Girl("½¨Äş¹«Ö÷", 18);
-        Girl longer = new Girl("Áú¶ù", 19);
-        Girl muqianping = new Girl("ãå½£ÆÁ", 22);
-        Girl zengrou = new Girl("ÔøÈá", 25);
-        Girl fangrou = new Girl("·½âù", 22);
+
+        Girl ake = new Girl("é˜¿ç‚", 19);
+        Girl shuanger = new Girl("åŒå„¿", 20);
+        Girl jianling = new Girl("å»ºå®å…¬ä¸»", 18);
+        Girl longer = new Girl("é¾™å„¿", 19);
+        Girl muqianping = new Girl("æ²å‰‘å±", 22);
+        Girl zengrou = new Girl("æ›¾æŸ”", 25);
+        Girl fangrou = new Girl("æ–¹æ€¡", 22);
 
         Girl[] girls = new Girl[]{
                 ake,

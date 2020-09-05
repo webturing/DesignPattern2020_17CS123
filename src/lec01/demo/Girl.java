@@ -15,9 +15,9 @@ public class Girl {
     void showMyHusband() {
 
         if (husband == null) {
-            System.out.println("´ó¼ÒºÃ,ÎÒµÄÃû×Ö½Ğ"+name+",ÎÒ»¹Ğ¡£¬ÒªºÃºÃÑ§Ï°~");
+            System.out.println("å¤§å®¶å¥½,æˆ‘çš„åå­—å«" + name + ",æˆ‘è¿˜å°ï¼Œè¦å¥½å¥½å­¦ä¹ ~");
         } else {
-            System.out.println("´ó¼ÒºÃ,ÎÒµÄÃû×Ö½Ğ"+name+"£¬ÎÒµÄÄĞÉñ"+husband);
+            System.out.println("å¤§å®¶å¥½,æˆ‘çš„åå­—å«" + name + "ï¼Œæˆ‘çš„ç”·ç¥" + husband);
         }
     }
 

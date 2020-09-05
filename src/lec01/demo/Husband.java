@@ -6,9 +6,9 @@ public class Husband {
     protected String info;
 
     private Husband() {
-        this.name = "Î¤Ğ¡±¦";
+        this.name = "éŸ¦å°å®";
         this.age = 18;
-        this.info = "ÈË¼ûÈË°®£¬»¨¼û»¨¿ª£¬³µ¼ä³µ±¬Ì¥";
+        this.info = "äººè§äººçˆ±ï¼ŒèŠ±è§èŠ±å¼€ï¼Œè½¦é—´è½¦çˆ†èƒ";
 
     }
 
@@ -20,6 +20,6 @@ public class Husband {
 
     @Override
     public String toString() {
-        return "µµ°¸: Ãû×Ö½Ğ"+name+"£¬½ñÄê"+age+"Ëê,×ùÓÒÃúÊÇ"+info;
+        return "æ¡£æ¡ˆ: åå­—å«" + name + "ï¼Œä»Šå¹´" + age + "å²,åº§å³é“­æ˜¯" + info;
     }
 }
