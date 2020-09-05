@@ -1,4 +1,4 @@
-﻿package zjdp.singleton.p2;
+package zjdp.singleton.p2;
 
 import java.awt.Font;
 import java.awt.Graphics;

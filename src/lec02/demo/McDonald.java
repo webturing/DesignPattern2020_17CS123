@@ -1,4 +1,4 @@
-package lec02.abstractfactory.demo;
+package lec02.demo;
 
 public class McDonald extends Factory {
     @Override

@@ -1,4 +1,4 @@
-package lec02.abstractfactory.demo;
+package lec02.demo;
 
 public abstract class Factory {
     public abstract Chicken createFriedChicken();

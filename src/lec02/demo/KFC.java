@@ -1,4 +1,4 @@
-package lec02.abstractfactory.demo;
+package lec02.demo;
 
 public class KFC extends Factory {
     @Override
