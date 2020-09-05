@@ -8,6 +8,6 @@ public abstract class LoverLetter {
     String predict;
     String object;
 
-    abstract LoverLetter getLetter();
+    public abstract String toString();
 
 }
