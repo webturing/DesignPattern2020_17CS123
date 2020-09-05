@@ -3,11 +3,11 @@ package lec03.builder.p2;
 import javax.swing.*;
 
 public interface Builder {
-    public abstract void buildButton();
+    void buildButton();
 
-    public abstract void buildLabel();
+    void buildLabel();
 
-    public abstract void buildTextField();
+    void buildTextField();
 
-    public abstract JPanel getPanel();
+    JPanel getPanel();
 }
