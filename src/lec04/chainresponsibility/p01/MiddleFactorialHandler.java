@@ -25,7 +25,7 @@ public class MiddleFactorialHandler implements FactorialHandler {
             for (int i = 2; i <= n; i++) {
                 s *= i;
             }
-            System.out.println(n + "!=" + s);
+            System.out.println(n + "! =" + s);
         } else {
             System.out.println(getClass().getName() + ", I can not handle it!");
             if (nextHandler != null) {

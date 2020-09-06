@@ -18,7 +18,7 @@ public class BigFactorialHandler implements FactorialHandler {
                 s = s.multiply(new BigInteger(String.valueOf(i)));
             }
 
-            System.out.println(n + "!=" + s);
+            System.out.println(n + "! =" + s);
         } else {
             System.out.println(getClass().getName() + ", I can not handle it!");
             if (nextHandler != null) {
