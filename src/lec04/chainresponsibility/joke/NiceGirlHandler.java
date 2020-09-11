@@ -3,7 +3,7 @@ package lec04.chainresponsibility.joke;
 /**
  * Created by Administrator on 2020/9/6.
  */
-public class NiceGirlHander implements GirlHandler {
+public class NiceGirlHandler implements GirlHandler {
     GirlHandler prevGirlHandler;
 
     @Override

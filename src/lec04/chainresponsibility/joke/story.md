@@ -1,31 +1,3 @@
-package lec04.chainresponsibility.joke;
-
-/**
- * Created by Administrator on 2020/9/6.
- */
-public class Application {
-    public static void main(String[] args) {
-        String loveLetter = "I am a happy boy, would you like to be my girlfriend?";
-        GirlHandler[] girls = new GirlHandler[]{
-                new AmazingGirlHandler(),
-                new BeautifulGirlHandler(),
-                new NiceGirlHandler(),
-                new CuteGirlHandler(),
-                new RobustGirlHandler(),
-        };
-        createChains(girls);
-
-
-        girls[0].readLetter(loveLetter);
-    }
-
-    private static void createChains(GirlHandler[] girls) {
-        for (int i = 0; i < girls.length - 1; i++) {
-            girls[i].setPrevGirlHandler(girls[i + 1]);
-        }
-    }
-}
-
 /**
  * CHAIN OF RESPONSIBLEITY—晚上去上英语课，为了好开溜坐到了最后一排，哇，前面坐了
  * 好几个漂亮的MM哎，找张纸条，写上"Hi,可以做我的女朋友吗？如果不愿意请向前传"，

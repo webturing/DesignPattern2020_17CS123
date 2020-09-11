@@ -3,15 +3,15 @@ package lec04.chainresponsibility.joke;
 /**
  * Created by Administrator on 2020/9/6.
  */
-public class AmazingGirlHander implements GirlHandler {
+public class CuteGirlHandler implements GirlHandler {
     GirlHandler prevGirlHandler;
 
     @Override
     public void readLetter(String letter) {
-        if (letter.contains("amazing")) {
-            System.out.println("I am an amazing girl,I like it~");
+        if (letter.contains("cute")) {
+            System.out.println("I am a cute girl,I like it~");
         } else {
-            System.out.println("I am an amazing girl,I dislike it~");
+            System.out.println("I am a cute girl,I dislike it~");
             if (prevGirlHandler != null) {
                 prevGirlHandler.readLetter(letter);
             }
